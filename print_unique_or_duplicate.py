@@ -1,6 +1,6 @@
 # Ask user to input a number, continue asking until the user input is invalid
 given_numbers = []
-while True:     # While loop (keep asking the user for input until invalid input is entered)
+while True:     # Use while loop since input is not limited
     num = input("Input a number: ")
 
 # Check if the user input is a digit
