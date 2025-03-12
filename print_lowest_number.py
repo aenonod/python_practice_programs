@@ -1,6 +1,6 @@
 # Ask user to input a number, continue asking until the user input is invalid
 lowest_number = None
-while True:     # While loop (keep asking the user for input until invalid input is entered)
+while True:     # Use while loop since input is not limited
     user_input = input("Input a number: ")
 
     if not user_input.isdigit():
